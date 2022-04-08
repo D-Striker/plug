@@ -149,6 +149,12 @@
   }
 }
 
+@media screen and (max-width: 576px) {
+  .wrapper .wrapper__text {
+    height: 20%;
+  }
+}
+
 
 
 /*# sourceMappingURL=app.css.map */
