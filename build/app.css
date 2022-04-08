@@ -151,11 +151,11 @@
 
 @media screen and (max-width: 420px) {
   .wrapper .wrapper__text {
-    height: 20%;
+    max-height: 20%;
     font-size: 15px;
   }
   .wrapper .wrapper__brends {
-    height: 20%;
+    max-height: 20%;
   }
 }
 
