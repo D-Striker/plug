@@ -151,7 +151,7 @@
 
 @media screen and (max-width: 480px) {
   .wrapper .wrapper__text {
-    height: 10%;
+    height: 100px;
   }
 }
 
