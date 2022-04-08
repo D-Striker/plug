@@ -153,6 +153,7 @@
   .wrapper .wrapper__text {
     padding-bottom: 20%;
     overflow: hidden;
+    height: 100px;
   }
 }
 
@@ -163,6 +164,7 @@
   .wrapper .wrapper__text {
     overflow: hidden;
     padding-bottom: 20%;
+    height: 100px;
   }
   .wrapper .wrapper__brends {
     max-height: 20%;
