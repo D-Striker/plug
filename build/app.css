@@ -119,6 +119,9 @@
   }
 }
 @media screen and (max-width: 576px) {
+  .wrapper {
+    background-position: -151px;
+  }
   .wrapper .wrapper__text {
     padding-left: 2%;
     padding-right: 2%;
