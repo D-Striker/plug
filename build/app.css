@@ -151,7 +151,8 @@
 
 @media screen and (max-width: 480px) {
   .wrapper .wrapper__text {
-    font-size: 15px;
+    padding-left: 30%;
+    padding-right: 30%;
   }
 }
 
@@ -160,7 +161,8 @@
     padding-bottom: 20%;
   }
   .wrapper .wrapper__text {
-    font-size: 12px;
+    padding-left: 30%;
+    padding-right: 30%;
   }
   .wrapper .wrapper__brends {
     max-height: 20%;
