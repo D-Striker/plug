@@ -149,7 +149,7 @@
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
   .wrapper .wrapper__content {
     padding-bottom: 20%;
   }
