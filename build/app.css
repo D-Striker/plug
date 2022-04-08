@@ -152,8 +152,9 @@
 @media screen and (max-width: 480px) {
   .wrapper .wrapper__text {
     padding-bottom: 20%;
-    overflow: hidden;
-    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -162,9 +163,10 @@
     padding-bottom: 20%;
   }
   .wrapper .wrapper__text {
-    overflow: hidden;
-    padding-bottom: 20%;
-    height: 100px;
+     padding-bottom: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .wrapper .wrapper__brends {
     max-height: 20%;
