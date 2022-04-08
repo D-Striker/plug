@@ -151,7 +151,6 @@
 
 @media screen and (max-width: 480px) {
   .wrapper .wrapper__text {
-    height: 100px;
   }
 }
 
@@ -160,7 +159,6 @@
     padding-bottom: 20%;
   }
   .wrapper .wrapper__text {
-    height: auto;
   }
   .wrapper .wrapper__brends {
     max-height: 20%;
