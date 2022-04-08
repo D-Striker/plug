@@ -151,7 +151,7 @@
 
 @media screen and (max-width: 480px) {
   .wrapper .wrapper__text {
-    height: 30%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +163,7 @@
     padding-bottom: 20%;
   }
   .wrapper .wrapper__text {
-    height: 30%;
+    height: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
