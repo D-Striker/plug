@@ -154,7 +154,7 @@
     padding-bottom: 20%;
   }
   .wrapper .wrapper__text {
-    height: 100px;
+    max-height: 50px;
     font-size: 15px;
   }
   .wrapper .wrapper__brends {
