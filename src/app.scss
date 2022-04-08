@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    background-image: url(/assets/img/Frame_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+    .wrapper__content {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: absolute;
+        top: 18%;
+        right: 0;
+    }
+    
+    .wrapper__text {
+        color: #fff;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 53px;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .wrapper__brends {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+        
+
+        a:nth-child(4n){
+            margin-right: 5%;
+            margin-left: -5%;
+        }
+        
+ 
+    }
+    .fon__2 {
+        display: none;
+    }
+}
+
+
+@media  screen and (max-width: 1280px) {
+    .wrapper {
+        .wrapper__content {
+            top: 14%;
+        }
+        .wrapper__brends a{
+            text-align: center;
+            width: 25%;
+    
+            img {
+                width: 100%;
+            }
+        }
+        .wrapper__text {
+            font-size: 28px;
+            
+        }
+    }
+
+}
+
+
+@media  screen and (max-width: 1200px) {
+    .wrapper {
+        .wrapper__content {
+            top: 14%;
+        }
+        .wrapper__brends a{
+            text-align: center;
+            width: 25%;
+    
+            img {
+                width: 100%;
+            }
+        }
+        .wrapper__text {
+            font-size: 20px;
+            
+        }
+    }
+
+}
+
+@media  screen and (max-width: 1024px) {
+    .wrapper {
+        .wrapper__content {
+            top: 14%;
+        }
+        .wrapper__brends a{
+            text-align: center;
+            width: 25%;
+    
+            img {
+                width: 100%;
+            }
+        }
+        .wrapper__text {
+            font-size: 20px;
+            
+        }
+    }
+}
+
+
+@media  screen and (max-width: 920px) {
+    .wrapper {
+        background-image: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        
+
+        .wrapper__content {
+            top: 0;
+            padding-top: 24%;
+            background-image: url(/assets/img/fon__mobile__1.png);
+            background-repeat: no-repeat;
+            height: 1080px;
+            width: 100%;
+            position: absolute;
+            box-shadow: 0 2px 10px #333;
+        }
+
+        .wrapper__brends a{
+            text-align: center;
+            width: 25%;
+    
+            img {
+                width: 80%;
+            }
+        }
+
+        .wrapper__text {
+            font-size: 32px;
+            margin-bottom: -500px;   
+        }
+
+        .wrapper__fon_2 {
+            width: 100%;
+            margin-top: 1080px;
+        }
+
+        .fon__2 {
+            display: block;
+
+            width: 100%;
+        }
+    }
+
+}
+
+@media  screen and (max-width: 576px) {
+    .wrapper {
+        .wrapper__text{
+            padding-left: 2%;
+            padding-right: 2%;
+        }
+        .wrapper__brends {
+            height: 30%;
+
+            a:first-child {
+                margin-bottom: 5%;
+            }
+
+            a:nth-child(3n) img {
+                width: 45%;
+            }
+
+            a:nth-child(4n) {
+                margin-right: 0px;
+            }
+
+            a{
+                text-align: center;
+                width: 100%;
+        
+                img {
+                    width: 30%;
+                }
+            }
+
+        }
+
+
+    }
+}
+
+@media  screen and (max-width: 576px) {
+    .wrapper {
+        .wrapper__text {
+            font-size: 18px;
+        }
+        .wrapper__brends a{
+            img {
+                width: 40%;
+            }
+        }
+
+    }
+}
+
+
