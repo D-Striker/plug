@@ -124,6 +124,7 @@
     padding-left: 2%;
     padding-right: 2%;
     font-size: 18px;
+    height: 30%;
   }
   .wrapper .wrapper__brends {
     padding-bottom: 10%;
@@ -147,5 +148,7 @@
     width: 20%;
   }
 }
+
+
 
 /*# sourceMappingURL=app.css.map */
