@@ -129,6 +129,7 @@
   .wrapper .wrapper__brends {
     padding-bottom: 10%;
     height: 30%;
+    margin-top: -100px;
   }
   .wrapper .wrapper__brends a:first-child {
     margin-bottom: 5%;
@@ -158,7 +159,7 @@
     font-size: 12px;
   }
   .wrapper .wrapper__brends {
-    margin-top: -100px;
+    margin-top: -70px;
   }
 }
 
