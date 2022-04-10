@@ -168,7 +168,8 @@
     padding-bottom: 20%;
   }
   .wrapper .wrapper__text {
-    font-size: 12px;
+    height: 150px;
+    font-size: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
