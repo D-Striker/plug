@@ -157,6 +157,9 @@
     height: 200px;
     font-size: 12px;
   }
+  .wrapper .wrapper__brends {
+    margin-top: -100px;
+  }
 }
 
 @media screen and (max-width: 320px) {
